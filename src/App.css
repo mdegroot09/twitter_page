@@ -1,33 +1,74 @@
+header {
+  height: 35px;
+  width: 100vw;
+  background: rgb(247, 247, 247);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+button {
+  margin-left: 20px;
+  border-color: transparent;
+  background: transparent;
+}
+
+.headerSearch {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  background: rgb(218, 218, 218);
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+  width: 100%;
+  height: 150px;
+  background: rgb(247, 247, 247);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainSection {
+  width: 50%;
+  min-height: 100vh;
+  background: gray; 
+  margin: 10px 10px 0 10px;
+}
+
+.sideSection {
+  width: 20%;
+  min-height: 100vh;
+  margin: 10px 0 0 0;
+}
+
+.searchBar {
+  width: 100%;
+  height: 40px;
+  background: rgb(247, 247, 247);
+}
+
+.trends {
+  width: 100%;
+  height: 300px;
+  background: rgb(247, 247, 247);
+  margin: 10px 0 0 0;
+}
+
+.follow {
+  width: 100%;
+  height: 300px;
+  background: rgb(247, 247, 247);
+}
+
+.about {
+  width: 100%;
+  height: 125px;
+  background: rgb(247, 247, 247);
+  margin-top: 10px;
 }

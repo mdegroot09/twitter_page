@@ -6,11 +6,15 @@ function App() {
   return (
     <div>
       <header>
-        <button href="#">Home</button>
-        <button href="#">Moments</button>
-        <button href="#">Notifications</button>
-        <button href="#">Messages</button>
+        <div className='headerLinks'>
+          <button href="#">Home</button>
+          <button href="#">Moments</button>
+          <button href="#">Notifications</button>
+          <button href="#">Messages</button>
+        </div>
         <div className='headerSearch'>
+          <input classname='searchTwitter' placeholder="Search Twitter" type="text"/>
+          <img className='smallPic' src="https://pbs.twimg.com/profile_images/837228010205913088/WM_aElpn_400x400.jpg" alt=""/>
           <button>Tweet</button>
         </div>
       </header>
